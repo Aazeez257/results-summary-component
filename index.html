@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="result-side">
+        <p class="result-header">Your result</p>
+        <div class="result-container">
+          <p class="result">
+            <span>76</span> <br />
+            of 100
+          </p>
+        </div>
+        <p class="result-description-main">Great</p>
+        <p class="result-description-sub">
+          You scored higher than 65% of <br class="l-screen" />
+          the <br class="s-screen" />
+          people who have taken <br class="l-screen" />
+          these tests.
+        </p>
+      </div>
+      <div class="summary-side">
+        <p class="summary-header">Summary</p>
+        <div class="summary-description summary-description-red">
+          <div class="logo">
+            <ion-icon name="flash" class="icon"></ion-icon> Reaction
+          </div>
+          <div class="percentage"><span>80</span> / 100</div>
+        </div>
+        <div class="summary-description summary-description-yellow">
+          <div class="logo">
+            <ion-icon name="cloud" class="icon"></ion-icon> Memory
+          </div>
+          <div class="percentage"><span>92</span> / 100</div>
+        </div>
+        <div class="summary-description summary-description-green">
+          <div class="logo">
+            <ion-icon name="text" class="icon"></ion-icon> Verbal
+          </div>
+          <div class="percentage"><span>61</span> / 100</div>
+        </div>
+        <div class="summary-description summary-description-blue">
+          <div class="logo">
+            <ion-icon name="eye" class="icon"></ion-icon> Visual
+          </div>
+          <div class="percentage"><span>72</span> / 100</div>
+        </div>
+
+        <button class="summary-btn">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
