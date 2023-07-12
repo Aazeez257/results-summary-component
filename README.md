@@ -1,7 +1,7 @@
 ## links
 
-live site -
-source code -
+live site - https://results-summary-component-abdul.netlify.app/
+source code - https://github.com/Aazeez257/results-summary-component
 
 ## Built with
 
