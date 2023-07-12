@@ -119,6 +119,7 @@ html {
   background-color: hsl(224, 30%, 27%);
   border-radius: 10rem;
   transition: all 0.3s;
+  border:none;
 }
 .summary-btn:hover {
   background-color: hsl(249, 93%, 60%);
